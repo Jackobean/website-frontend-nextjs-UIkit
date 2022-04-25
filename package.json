@@ -1,0 +1,29 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "embla-carousel-auto-height": "^6.2.0",
+    "embla-carousel-autoplay": "^6.2.0",
+    "embla-carousel-react": "^6.2.0",
+    "fontawesome-4.7": "^4.7.0",
+    "moment": "^2.29.3",
+    "next": "12.1.5",
+    "qs": "^6.10.3",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-markdown": "^8.0.3",
+    "react-moment": "^1.1.2",
+    "react-responsive-carousel": "^3.2.23"
+  },
+  "devDependencies": {
+    "eslint": "8.13.0",
+    "eslint-config-next": "12.1.5"
+  }
+}
