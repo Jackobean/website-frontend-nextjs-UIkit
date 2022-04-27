@@ -37,7 +37,7 @@ const Article = ({ article, categories }) => {
         <div className="uk-container uk-container-large uk-text-justify">
           <EmblaCarousel images={article.attributes.images}></EmblaCarousel>
           <h3>{article.attributes.title}</h3>
-          <ReactMarkdown children={article.attributes.content} />
+          <ReactMarkdown>{article.attributes.content}</ReactMarkdown>
           <hr className="uk-divider-small uk-text-center" />
           <div className="uk-grid-small uk-flex-left" data-uk-grid="true">
 
